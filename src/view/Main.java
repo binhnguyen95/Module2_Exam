@@ -54,7 +54,7 @@ public class Main implements Serializable {
                         removeProduct();
                         break;
                     case 5:
-                        productManager.sortByPriceLowtoHight();
+                        productManager.sortLowestFirst();
                         productManager.display();
                         break;
                     case 6:

@@ -61,7 +61,7 @@ public class ProductManager implements Serializable {
         return check;
     }
 
-    public void sortByPriceLowtoHight(){
+    public void sortLowestFirst(){
         productList.sort(Comparator.comparingDouble(Product::getPrice));
     }
 
